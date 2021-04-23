@@ -1,6 +1,6 @@
 {
   "name": "atbl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Another library to use the official bot api of Telegram.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
