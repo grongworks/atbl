@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "npm:publish": "npm run prepare && npm publish"
+    "npm:publish:patch": "npm version patch --no-git-tag-version && npm run prepare && npm publish",
+    "npm:publish:minor": "npm version minor --no-git-tag-version && npm run prepare && npm publish",
+    "npm:publish:major": "npm version major --no-git-tag-version && npm run prepare && npm publish"
   },
   "repository": {
     "type": "git",

@@ -8,6 +8,7 @@ export class Atbl {
     }
 
     public printToken () {
+        console.log(this);
         console.log("CURRENT TOKEN: ", this.token);
     }
 
