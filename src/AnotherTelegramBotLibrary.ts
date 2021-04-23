@@ -3,6 +3,7 @@ export class Atbl {
     private token : String;
 
     construct (telegramToken : String) {
+        console.log("constructor", telegramToken);
         this.token = telegramToken;
     }
 
