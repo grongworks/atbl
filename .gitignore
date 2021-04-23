@@ -106,3 +106,4 @@ dist
 # ignore compiled code in repository
 lib
 lib/*
+/lib
