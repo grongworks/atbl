@@ -1,0 +1,25 @@
+{
+  "name": "atbl",
+  "version": "1.0.0",
+  "description": "Another library to use the official bot api of Telegram.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grongworks/atbl.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "api",
+    "library"
+  ],
+  "author": "Christian Köthe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grongworks/atbl/issues"
+  },
+  "homepage": "https://github.com/grongworks/atbl#readme"
+}
