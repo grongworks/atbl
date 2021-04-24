@@ -58,4 +58,20 @@ export default class Atbl {
             console.log(error);
         }
     }
+
+    /**
+     * official method sendMessage
+     * references to: https://core.telegram.org/bots/api#sendDice
+     */
+    public async sendDice (to: string) {
+        try {
+            const data = await this.executeMethod("sendDice", {
+                chat_id: to,
+                emoji: "🎲"
+            });
+            console.log(data);
+        } catch (error) {
+            console.log(error);
+        }
+    }
 }
